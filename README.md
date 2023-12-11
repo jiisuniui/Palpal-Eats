@@ -125,43 +125,43 @@
 
 ## 🐟 File Structure
 ``` markdown
-  palpal-eats/
-  |-- src/
-  |   |-- main/
-  |   |   |-- java/
-  |   |   |   |-- com.sparta.palpaleats/
-  |   |   |   |   |-- domain/
-  |   |   |   |   |   |-- backoffice/
-  |   |   |   |   |   |-- cart/
-  |   |   |   |   |   |-- menu/
-  |   |   |   |   |   |-- order/
-  |   |   |   |   |   |   |-- controller/
-  |   |   |   |   |   |   |-- dto/
-  |   |   |   |   |   |   |-- entity/
-  |   |   |   |   |   |   |-- enums/
-  |   |   |   |   |   |   |-- repository/
-  |   |   |   |   |   |   |-- service/
-  |   |   |   |   |   |-- password/
-  |   |   |   |   |   |-- review/
-  |   |   |   |   |   |-- s3/
-  |   |   |   |   |   |-- store/
-  |   |   |   |   |   |-- user/
-  |   |   |   |   |-- global/
-  |   |   |   |   |   |-- common/
-  |   |   |   |   |   |-- config/
-  |   |   |   |   |   |-- dto/
-  |   |   |   |   |   |-- exception/
-  |   |   |   |   |   |-- jwt/
-  |   |   |   |   |   |-- security/
-  |   |   |   |   |-- PalpalEatsApplication.java
-  |   |   |-- resources/
-  |   |   |   |-- application.properties
-  |   |-- test/
-  |       |-- java/
-  |-- build.gradle
-  |-- settings.gradle
-  |-- .gitignore
-  |-- readme.md
+palpal-eats/
+|-- src/
+|   |-- main/
+|   |   |-- java/
+|   |   |   |-- com.sparta.palpaleats/
+|   |   |   |   |-- domain/
+|   |   |   |   |   |-- backoffice/
+|   |   |   |   |   |-- cart/
+|   |   |   |   |   |-- menu/
+|   |   |   |   |   |-- order/
+|   |   |   |   |   |   |-- controller/
+|   |   |   |   |   |   |-- dto/
+|   |   |   |   |   |   |-- entity/
+|   |   |   |   |   |   |-- enums/
+|   |   |   |   |   |   |-- repository/
+|   |   |   |   |   |   |-- service/
+|   |   |   |   |   |-- password/
+|   |   |   |   |   |-- review/
+|   |   |   |   |   |-- s3/
+|   |   |   |   |   |-- store/
+|   |   |   |   |   |-- user/
+|   |   |   |   |-- global/
+|   |   |   |   |   |-- common/
+|   |   |   |   |   |-- config/
+|   |   |   |   |   |-- dto/
+|   |   |   |   |   |-- exception/
+|   |   |   |   |   |-- jwt/
+|   |   |   |   |   |-- security/
+|   |   |   |   |-- PalpalEatsApplication.java
+|   |   |-- resources/
+|   |   |   |-- application.properties
+|   |-- test/
+|       |-- java/
+|-- build.gradle
+|-- settings.gradle
+|-- .gitignore
+|-- README.md
 ```
 
 ## 🐟 Technical Decision
