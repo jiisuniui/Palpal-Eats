@@ -131,9 +131,28 @@
   |   |   |-- java/
   |   |   |   |-- com.sparta.palpaleats/
   |   |   |   |   |-- domain/
-  |   |   |   |   |   |-- Main.java
+  |   |   |   |   |   |-- backoffice/
+  |   |   |   |   |   |-- cart/
+  |   |   |   |   |   |-- menu/
+  |   |   |   |   |   |-- order/
+  |   |   |   |   |   |   |-- controller/
+  |   |   |   |   |   |   |-- dto/
+  |   |   |   |   |   |   |-- entity/
+  |   |   |   |   |   |   |-- enums/
+  |   |   |   |   |   |   |-- repository/
+  |   |   |   |   |   |   |-- service/
+  |   |   |   |   |   |-- password/
+  |   |   |   |   |   |-- review/
+  |   |   |   |   |   |-- s3/
+  |   |   |   |   |   |-- store/
+  |   |   |   |   |   |-- user/
   |   |   |   |   |-- global/
-  |   |   |   |   |   |-- Main.java
+  |   |   |   |   |   |-- common/
+  |   |   |   |   |   |-- config/
+  |   |   |   |   |   |-- dto/
+  |   |   |   |   |   |-- exception/
+  |   |   |   |   |   |-- jwt/
+  |   |   |   |   |   |-- security/
   |   |   |   |   |-- PalpalEatsApplication.java
   |   |   |-- resources/
   |   |   |   |-- application.properties
