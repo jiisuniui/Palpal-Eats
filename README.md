@@ -123,6 +123,28 @@
 | 가게 리뷰 단일 조회 | GET | /stores/{storeId}/reviews/{reviewId} | none |
 | 가게 리뷰 전체 조회 | GET | /stores/{storeId}/reviews | none |
 
+## 🐟 File Structure
+``` markdown
+  palpal-eats/
+  |-- src/
+  |   |-- main/
+  |   |   |-- java/
+  |   |   |   |-- com.sparta.palpaleats/
+  |   |   |   |   |-- domain/
+  |   |   |   |   |   |-- Main.java
+  |   |   |   |   |-- global/
+  |   |   |   |   |   |-- Main.java
+  |   |   |   |   |-- PalpalEatsApplication.java
+  |   |   |-- resources/
+  |   |   |   |-- application.properties
+  |   |-- test/
+  |       |-- java/
+  |-- build.gradle
+  |-- settings.gradle
+  |-- .gitignore
+  |-- readme.md
+```
+
 ## 🐟 Technical Decision
 ### 1. S3 기술 도입
 - 메뉴, 가게 이미지 관리
